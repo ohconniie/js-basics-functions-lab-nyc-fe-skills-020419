@@ -10,6 +10,8 @@ function distanceFromHqInFeet(block) {
   return distanceFromHqInBlocks(block) * feetPerBlock
 }
 
-function distanceTravelledInFeet(block1, block2) {
- return Math.abs((block2 - block1) * feetPerBlock)
+function distanceTravelledInFeet(start, destination) {
+ return Math.abs((start - destination) * feetPerBlock)
 }
+
+function calculatesFarePrice(start, destination)
