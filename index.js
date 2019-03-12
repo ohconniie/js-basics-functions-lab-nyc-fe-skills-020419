@@ -11,11 +11,11 @@ function distanceFromHqInFeet(block) {
 }
 
 function distanceTravelledInFeet(start, destination) {
-  let feetTraveled = distanceTravelledInFeet(start, destination)
  return Math.abs((start - destination) * feetPerBlock)
 }
 
 function calculatesFarePrice(start, destination) {
+  let feetTraveled = distanceTravelledInFeet(start, destination)
   if (feetTraveled < 400) {
     return 0
   } else if (feetTraveled => 400 && feetTraveled < 2000)
