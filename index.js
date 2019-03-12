@@ -5,6 +5,6 @@ function distanceFromHqInBlocks(block) {
   return Math.abs(block - headquartersBlock)
 }
 
-function distanceFromHqInBlocks() {
+function distanceFromHqInFeet(feet {
   return Math.abs(block - headquartersBlock)
 }
